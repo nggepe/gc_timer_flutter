@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:gc_timer/styles/style.dart';
 
 class BottomNav extends StatefulWidget {
-  const BottomNav({super.key, this.onClickAdd});
-
-  final void Function()? onClickAdd;
+  const BottomNav({
+    super.key,
+  });
 
   @override
   State<BottomNav> createState() => _BottomNavState();
