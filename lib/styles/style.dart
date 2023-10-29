@@ -11,4 +11,9 @@ class Style {
       begin: Alignment.topCenter,
       end: Alignment.bottomCenter,
       colors: [Color(0XFF575C93), Color(0XFF3F4474)]);
+
+  MediaQueryData get media => MediaQuery.of(context);
+  Size get mediaSize => media.size;
+  double get mediaWidth => mediaSize.width;
+  double get mediaHeight => mediaSize.height;
 }
