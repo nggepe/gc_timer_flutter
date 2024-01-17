@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gc_timer/pages/home_page.dart';
+import 'package:gc_timer/pages/home/home_page.dart';
 import 'package:get/route_manager.dart';
 
 void main() {

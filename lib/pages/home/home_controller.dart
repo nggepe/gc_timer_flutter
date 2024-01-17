@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gc_timer/pages/add_timer/add_timer_page.dart';
 import 'package:gc_timer/styles/style.dart';
-import 'package:gc_timer/widgets/primary_bottom_sheet.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 class HomeController extends GetxController {
@@ -8,7 +8,7 @@ class HomeController extends GetxController {
     final Style style = Style(context);
     showModalBottomSheet(
         context: context,
-        builder: (_) => const PrimaryBottomSheet(),
+        builder: (_) => const AddTimerPage(),
         constraints: BoxConstraints(
           maxWidth: style.mediaWidth,
         ),

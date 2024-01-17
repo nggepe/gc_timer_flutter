@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gc_timer/pages/home_controller.dart';
+import 'package:gc_timer/pages/home/home_controller.dart';
 import 'package:gc_timer/styles/style.dart';
 import 'package:gc_timer/widgets/bottom_nav.dart';
 import 'package:gc_timer/widgets/button_primary.dart';
